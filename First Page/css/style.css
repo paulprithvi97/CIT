@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin:0;
+}
+.header { 
+    padding: 20px 0;
+    background: rgba(212, 52, 52, 0);
+    text-align: center;
+}
+.container {
+    padding: 20px 0;
+    margin: 0 auto;
+    width: 1170px;
+    background: rgba(86, 72, 70, 0.162);
+    border-radius: 10px;
+}
+.menu ul {
+    display: flex;
+    justify-content: center;
+}
+.menu ul li a { 
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding:0 20px;
+    transition: .5s ease;
+    transition-behavior: smooth;
+}
+.menu ul li a:hover {
+    color: rgb(35, 27, 27);
+}
+ul,ol {
+    list-style-type: none;
+    text-decoration: none;  
+}
+a { 
+    text-decoration: none;
+}
+body {
+  background: url(../image/1.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+
+.overly {
+padding: 850px 0; 
+background: rgba(0, 0, 0, 0.172);
+text-align: center; color: rgb(255, 255, 255);
+}
+.overly h1 {
+    display: inline-block;
+    position: relative; 
+}
+.overly h2 {
+    font-size: 80px;
+    top: -800px;
+    position:relative;
+    transform: translateY(-50%);
+    font-family:"Rouge Script", cursive;
+    font-size: 120px;
+    
+}
+.overly h1::before {
+    position: absolute;
+    height: 2px;
+    width: 90px;
+    left: -130px;
+    top: 50%;
+    transform : translateY(-50%);
+    background:rgb(251, 251, 251);
+    content: "";
+}
+.overly h1::after {
+    position: absolute;
+    height: 2px;
+    width: 90px;
+    right: -130px;
+    top: 50%;
+    transform : translateY(-50%);
+    background:rgb(255, 255, 255);
+    content: "";
+}
+.overly h1 span {
+    position: relative;
+    display: inline-block;
+}
+.overly h1 span::before {
+    position: absolute;
+    width: 2px;
+    height: 90px;
+    top: -120px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgb(255, 255, 255);
+    content: "";
+}
+.overly h1 span::after { 
+    position: absolute;
+    width: 2px;
+    height: 90px;
+    bottom: -120px;
+    left: 50%;
+    transform: translateX (-50%);
+    background: rgb(255, 255, 255);
+    content: "";
+}

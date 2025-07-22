@@ -1,0 +1,254 @@
+*{
+    padding:0;
+    margin:0;       
+}   
+.header { 
+    padding: 20px 0;
+    height: 60px;;
+    background: rgba(255, 255, 255, 0.182);
+    text-align: center;
+}
+.container {
+    padding: 20px 0;
+    margin: 0 auto;
+    width: 1170px;
+    background: rgba(86, 72, 70, 0.162);
+    border-radius: 10px;
+}
+.menu ul {
+    display: flex;
+    justify-content: center;
+}
+.menu ul li a { 
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding:0 20px;
+    transition: .5s ease;
+    transition-behavior: smooth;
+}
+.menu ul li a:hover {
+    color: rgb(35, 27, 27);
+}
+ul,ol {
+    list-style-type: none;
+    text-decoration: none;  
+}
+a { 
+    text-decoration: none;
+}
+body {
+  background: url(../image/1.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.box { 
+    width: 90%;
+    height: 1200px;
+    background: rgba(203, 193, 193, 0.381);
+    border-radius: 10px;
+    margin:0 auto;
+    position: relative;
+    top: 120px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+.overly h1 {
+    top: 50px;
+    color: white;
+    position: relative;
+    font-family: "Rouge Script", cursive;
+    font-size: 80px;
+    transition: .5s ease ;
+}
+.overly h1:hover {
+    color: rgba(94, 184, 104, 0.71);
+}
+.Switzerland {
+    width: 250px;
+    height: 150px;
+    background:rgb(255, 0, 0);
+    position: absolute;
+    top: 400px;;
+    left: 100px; 
+    border-radius: 5px;
+}
+.Norway {
+    width: 250px;
+    height: 150px;
+    background: rgb(186, 12, 47); /* Norway red */
+    position: absolute;
+    top: 400px;
+    left: 380px; /* shifted to the right of Switzerland */
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.UK {
+    width: 250px;
+    height: 150px;
+    background: #012169; /* UK blue */
+    position: absolute;
+    top: 400px;
+    left: 660px; /* shifted to the right of Norway */
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.Austria {
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    top: 400px;
+    left: 940px; /* shifted to the right of UK */
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.austria_top,
+.austria_bottom {
+    width: 100%;
+    height: 50px;
+    background: red;
+}
+
+.austria_middle {
+    width: 100%;
+    height: 50px;
+    background: white;
+}
+
+.uk_white_diag1, .uk_white_diag2, .uk_red_diag1, .uk_red_diag2 {
+    position: absolute;
+    width: 20px;
+    height: 300px;
+    background-color: white;
+    transform-origin: center;
+}
+
+.uk_red_diag1, .uk_red_diag2 {
+    background-color: red;
+    width: 10px;
+    height: 300px;
+}
+
+.uk_white_diag1 {
+    transform: rotate(45deg);
+    left: 115px;
+    top: -75px;
+}
+
+.uk_white_diag2 {
+    transform: rotate(-45deg);
+    left: 115px;
+    top: -75px;
+}
+
+.uk_red_diag1 {
+    transform: rotate(45deg);
+    left: 120px;
+    top: -75px;
+}
+
+.uk_red_diag2 {
+    transform: rotate(-45deg);
+    left: 120px;
+    top: -75px;
+}
+
+.uk_cross_white_vert,
+.uk_cross_white_hori {
+    position: absolute;
+    background: white;
+}
+
+.uk_cross_white_vert {
+    width: 30px;
+    height: 150px;
+    left: 110px;
+    top: 0;
+}
+
+.uk_cross_white_hori {
+    width: 250px;
+    height: 30px;
+    left: 0;
+    top: 60px;
+}
+
+.uk_cross_red_vert,
+.uk_cross_red_hori {
+    position: absolute;
+    background: red;
+}
+
+.uk_cross_red_vert {
+    width: 15px;
+    height: 150px;
+    left: 117.5px;
+    top: 0;
+}
+
+.uk_cross_red_hori {
+    width: 250px;
+    height: 15px;
+    left: 0;
+    top: 67.5px;
+}
+
+.n_vertical_white {
+    position: absolute;
+    top: 0;
+    left: 90px;
+    width: 20px;
+    height: 150px;
+    background-color: white;
+}
+
+.n_horizontal_white {
+    position: absolute;
+    top: 65px;
+    left: 0;
+    width: 250px;
+    height: 20px;
+    background-color: white;
+}
+
+.n_vertical_blue {
+    position: absolute;
+    top: 0;
+    left: 95px;
+    width: 10px;
+    height: 150px;
+    background-color: rgb(0, 32, 91); /* Norway blue */
+}
+
+.n_horizontal_blue {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 250px;
+    height: 10px;
+    background-color: rgb(0, 32, 91);
+}
+.s1 {
+   margin-top: 34.5px;
+     height: 75px;
+     width: 20px;
+     margin-left: 110px;
+     background-color: rgb(255, 255, 255);
+}
+.s2 {
+width: 75px;
+  height: 20px;
+  margin-left: 34.5px;
+  margin-top: 40px;
+  background-color: white;
+}
+  .s2 {
+    width: 75px;
+    height: 20px;
+    margin-left: 82.5px;
+    margin-top: -46px;
+    background-color: white;
+  }
+  
